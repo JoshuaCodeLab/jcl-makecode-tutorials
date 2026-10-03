@@ -16,19 +16,21 @@ Target: Minecraft Education's native Code Builder with Microsoft MakeCode. A nor
 
 [Open Agent Probe in MakeCode](https://minecraft.makecode.com/?forcelang=en#tutorial:https://github.com/JoshuaCodeLab/jcl-makecode-tutorials/agent-probe)
 
-This planned GitHub launch requires this repository to be public. The tutorial source is [agent-probe.md](agent-probe.md); this README is project documentation. Keep `forcelang=en` before `#tutorial:`. Korean prose is the base tutorial text, not a locale override.
+This public GitHub launch opens the tutorial in the web editor. Native Code Builder navigation was validated through an NPC command in Minecraft Education v26.32. The tutorial source is [agent-probe.md](agent-probe.md); this README is project documentation. Keep `forcelang=en` before `#tutorial:`. Korean prose is the base tutorial text, not a locale override.
 
 ## Three-step proof
 
 1. Use the starter `probe` chat command and decide where actions belong.
-2. Bring the Agent to the player, then move it forward one block.
-3. Change the movement distance from one to three and observe the difference.
+2. Build and run the Agent teleport plus one-block movement; verify it in Minecraft before choosing Next.
+3. Change only the movement distance from one to three, run again, and compare the result.
 
-The starter contains only the empty chat event. Block examples and solution-oriented explanations are behind the lightbulb hint. An opened hint may stay open when advancing; close it manually when needed.
+The starter contains only the empty chat event. Block examples and solution-oriented explanations are behind the lightbulb hint. An opened hint may stay open when advancing; close it manually when needed. The final Done control is hidden to reduce accidental exit from tutorial mode. This does not lock the editor; normal host closing and available navigation remain usable.
 
 ## Status
 
-Experimental. The original local web prototype was checked on 2026-10-03 for Korean prose, English UI/blocks, starter rendering, and hidden/revealed hints. GitHub-hosted loading of this candidate has not yet been tested. Native movement, URL preservation, and save/reopen behavior remain unverified.
+Experimental. The initial published proof passed GitHub-hosted web loading. The founder also confirmed native loading through an NPC in Minecraft Education v26.32, Korean tutorial prose with English MakeCode labels, hidden/revealed hints, an empty starter, and working Agent code. In that initial version, Done exited tutorial mode while leaving learner code visible. These observations do not establish save/reopen persistence. The revised checkpoints and hidden Done control still require native regression verification.
+
+Public user tutorials may display UNAPPROVED CONTENT. This is MakeCode's repository approval/reporting label, not a statement that this tutorial failed to load. JCL is independent and has not obtained MakeCode repository approval.
 
 MakeCode may cache tutorials. A fresh browser session helps distinguish local caching; do not assume an edited GitHub file is already the version served by MakeCode.
 
