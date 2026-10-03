@@ -1,0 +1,16 @@
+{
+  "name": "jcl-makecode-tutorials",
+  "description": "JCL-original Korean instructions with English programming labels for Minecraft Education.",
+  "license": "MIT",
+  "dependencies": {
+    "core": "*"
+  },
+  "files": [
+    "README.md",
+    "agent-probe.md"
+  ],
+  "supportedTargets": [
+    "minecraft"
+  ],
+  "preferredEditor": "blocksprj"
+}
