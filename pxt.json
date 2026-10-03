@@ -1,5 +1,6 @@
 {
   "name": "jcl-makecode-tutorials",
+  "version": "0.1.0",
   "description": "JCL-original Korean instructions with English programming labels for Minecraft Education.",
   "license": "MIT",
   "dependencies": {
